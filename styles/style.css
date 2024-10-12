@@ -38,13 +38,15 @@ address {
 .cover {
     margin-top: 90px;
     height: 757px;
-    background-image: url(/images/cover.jpg);
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
     position: relative;
 }
 
+.cover__image {
+    position: absolute;
+    height: 757px;
+    object-fit: cover;
+    background-size: cover;
+}
 
 .overlay {
     background-color: black;
