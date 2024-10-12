@@ -179,7 +179,7 @@ address {
     min-height: 563px;
     grid-column: 1/2;
     grid-row: 1;
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card__title {
@@ -208,7 +208,7 @@ address {
     min-height: 563px;
     grid-column: 2/3;
     grid-row: 1;
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
@@ -223,7 +223,7 @@ address {
     min-height: 563px;
     grid-column: 3/4;
     grid-row: 1;
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
