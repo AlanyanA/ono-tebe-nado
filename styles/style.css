@@ -155,16 +155,13 @@
     line-height: 47px;
 }
 
-.lots__card-list {
-    list-style: none;
-}
-
 .card-link {
     text-decoration: none;
     display: block;
 }
 
 .lots__card-list {
+    list-style: none;
     margin-top: 26px;
     margin-bottom: 30px;
     display: grid;
