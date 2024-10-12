@@ -1,4 +1,5 @@
 .header {
+    background-color: brown;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +10,7 @@
     padding-left: 26px;
     list-style: circle;
     display: flex;
-    gap: 30px;
+    gap: 34px;
     font-size: 18px;
 }
 
@@ -23,10 +24,11 @@
 
 .logo-black {
     height: 105px;
-    padding-right: 140px;
+    padding-right: 153px;
 }
 
 address {
+    line-height: 1.25em;
     font-style: normal;
     padding-right: 60px;
     display: flex;
@@ -36,7 +38,7 @@ address {
 }
 
 .cover {
-    margin-top: 90px;
+    margin-top: 92px;
     height: 757px;
     position: relative;
 }
@@ -45,6 +47,7 @@ address {
     position: absolute;
     height: 757px;
     object-fit: cover;
+    background-position: center;
     background-size: cover;
 }
 
@@ -57,7 +60,7 @@ address {
 }
 
 .cover__title {
-    padding: 165px 50px 0px 50px;
+    padding: 160px 50px 0px 50px;
     position: relative;
     z-index: 1;
     color: white;
@@ -65,7 +68,7 @@ address {
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    line-height: 1.237em;
+    line-height: 1.265em;
 }
 
 .aligned-text {
@@ -75,11 +78,13 @@ address {
 .aligned-text_center {
     display: block;
     text-align: center;
+    line-height: 1.25em;
 }   
 
 .aligned-text_right {
     display: block;
     text-align: end;
+    line-height: 1.153em;
 }
 
 .letter_spacing1 {
