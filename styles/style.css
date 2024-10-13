@@ -88,15 +88,15 @@
     line-height: 1.153em;
 }
 
-.letter_spacing1 {
+.letter_spacing-expanded {
     letter-spacing: 0.6em;
 }
 
-.letter_spacing2 {
+.letter_spacing-expanded {
     letter-spacing: 0.6em;
 }
 
-.letter_spacing3 {
+.letter_spacing-expanded {
     letter-spacing: 0.6em;
 }
 
@@ -122,10 +122,6 @@
     font-size: 22px;
     line-height: 28px;
     word-spacing: 0.9em;
-}
-
-.white-space1 {
-    letter-spacing: 0.8em;
 }
 
 .cover__description-button {
